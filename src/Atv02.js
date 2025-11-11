@@ -2,7 +2,7 @@ import Contador from "./Contador";
 import { Link } from "react-router-dom";
 
 
-export default function Atv01(){
+export default function Atv02(){
     return(
         <>
             <h1>Atividades da Semana 2</h1>
