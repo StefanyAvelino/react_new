@@ -110,7 +110,8 @@ export default function PackingList() {
     </ul>
 </section>
   );
-}*/
+}
+ »————————————————«
 function Item({ name, isPacked }) {
     return ( 
       <li className="item">
@@ -119,6 +120,42 @@ function Item({ name, isPacked }) {
 }
 export default function PackingList() { 
   return (
+<section>
+<h1>Sally Ride's Packing List</hl> 
+    <ul>
+       <Item
+        isPacked={true}
+        name="Space suit"
+       />
+      <Item
+        isPacked={true}
+        name="Helmet with a golden leaf"
+      />
+      <Item
+        isPacked={false}
+        name="Photo of Tam"
+      />
+    </ul>
+</section>
+  );
+}*/
+function Item({ name, isPacked }) {
+     let itemContent = name; 
+     if (isPacked) {
+       itemContent =( 
+        <del> 
+         {name +"✔️"} 
+       </del>
+       );
+     }
+    return ( 
+      <li className="item"> 
+          {itemContent}
+      </li> );
+    }
+
+export default function PackingList() { 
+    return (
 <section>
 <h1>Sally Ride's Packing List</hl> 
     <ul>
