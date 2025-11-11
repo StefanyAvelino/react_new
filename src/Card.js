@@ -1,26 +1,19 @@
-function Card({ children }) {
-    return (
-      <div className="card">
-        {children}
-      </div>
+import Avatar from './Avatar.js';
+function Card({ children }) { 
+    return ( 
+        <div className="card"> 
+          {children} 
+        </div> 
     );
-  }
-  
-  function Avatar() {
-    return (
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-    );
-  }
-  
-  export default function Profile() {
-    return (
-      <Card>
-        <Avatar />
-      </Card>
-    );
-  }
-  
+}
+export default function Profile() {
+    return ( 
+        <Card> 
+        <Avatar 
+        size={100} 
+            person={{
+                name: 'Katsuko Saruhashi', imageId: 'YfeOqp2'
+            }} />
+       </Card>
+);
+}
