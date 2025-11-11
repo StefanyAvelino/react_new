@@ -55,12 +55,13 @@ export default function Avatar({ person, size = 100 }) {
 
 
 
-function Avatar() {
-    return (
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-    );
-  }
+import { getImageUrl } from './utils.js';
+export default function Avatar({person, size }) {
+  return (
+    <img className="avatar" 
+      src={getImageUrl(person)} 
+      alt={person.name}
+      width={size} 
+      height={size}
+/> ); 
+}
