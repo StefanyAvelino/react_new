@@ -1,6 +1,7 @@
 import Toolbar from "./Toolbar";
 import Gallery from "./Gallery";
 import Counter from "./Counter";
+import Form from "./Form";
 
 import { Link } from "react-router-dom";
 
@@ -11,6 +12,7 @@ export default function Atv04(){
             <Toolbar/>
             <Gallery/>
             <Counter/>
+            <Form/>
             
             <Link to="/">Voltar</Link>
         
@@ -19,4 +21,5 @@ export default function Atv04(){
 
 
 }
+
 
