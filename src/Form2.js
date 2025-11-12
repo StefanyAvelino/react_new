@@ -1,10 +1,14 @@
 import { useState } from 'react';
-export default function Form2 ()
-const [person, setPerson] = useState( firstName: 'Barbara', lastName: 'Hepworth',
-email: 'bhepworth@sculpture.com
-function handleFirstNameChange(e) ( person.firstName = e.target.value;
-function handleLastNameChange(e) f person.lastName = e.target.value; £
-function handleEmailChange(e) ( person.email = e.target.value;
+
+export default function Form2 () {
+  const [person, setPerson] = useState({ 
+    firstName: 'Barbara', 
+    lastName: 'Hepworth',
+    email: 'bhepworth@sculpture.com
+  });
+  function handleFirstNameChange(e) { person.firstName = e.target.value;}
+function handleLastNameChange(e) { person.lastName = e.target.value; }
+function handleEmailChange(e) { person.email = e.target.value;}
 return (
 O> <label> First name: <input value=[person.firstName) onChange=[handleFirstNameChange) I </label> <label> Last name: <input value=[person.lastName) onChange=(handleLastNameChange) 1> </label> <label> Email: <input value=[person.email) onChange=[handleEmailChange) 1> </label> <p> (person.firstName]f' '] (person.lastName)(' ') ([person.email)) </p> </>
 )
