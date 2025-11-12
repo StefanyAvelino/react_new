@@ -21,7 +21,9 @@ export default function Gallery() {
             src={sculpture.url}
             alt={sculpture.alt}
             />
-    <p>
-    (sculpture.description)
-    </p>
-    <1>
+         <p>
+            {sculpture.description}
+        </p>
+     </>
+);
+}
