@@ -8,7 +8,7 @@ export default App2(){
     );
 }*/
 
-import
+import { getImageUrl } from "./utils";
 function Avatar({ person, size}){
     return (
         <img

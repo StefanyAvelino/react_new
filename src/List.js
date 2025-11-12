@@ -12,8 +12,8 @@ export default function List() {
      />
      <p>
         <b>{person.name}:</b>
-        {' ' + person.profession + ' ') 
-        known for (person.accomplishment) </p>
+        {' ' + person.profession + ' '}
+        known for {person.accomplishment} </p>
 </li>
 );
 return <ul>{listItems}</ul>;}

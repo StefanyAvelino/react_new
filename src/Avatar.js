@@ -59,7 +59,7 @@ import { getImageUrl } from './utils.js';
 export default function Avatar({person, size }) {
   return (
     <img className="avatar" 
-      src={getImageUrl(person)} 
+      src={getImageUrl(person.imageId)} 
       alt={person.name}
       width={size} 
       height={size}

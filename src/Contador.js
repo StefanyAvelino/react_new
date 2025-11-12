@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contador.css";
- 
+import "bootstrap/dist/css/bootstrap.min.css";
 import PersonCounter from "./PersonCounter";
 import TotalCounter from "./TotalCounter";
  

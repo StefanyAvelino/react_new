@@ -7,3 +7,4 @@ export default function TeaGathering() {
         cups.push(<Cup key={i} guest={i} />);
     return cups;
  }
+}
