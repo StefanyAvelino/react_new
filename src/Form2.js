@@ -6,9 +6,28 @@ export default function Form2 () {
     lastName: 'Hepworth',
     email: 'bhepworth@sculpture.com
   });
-  function handleFirstNameChange(e) { person.firstName = e.target.value;}
-function handleLastNameChange(e) { person.lastName = e.target.value; }
-function handleEmailChange(e) { person.email = e.target.value;}
-return (
-O> <label> First name: <input value=[person.firstName) onChange=[handleFirstNameChange) I </label> <label> Last name: <input value=[person.lastName) onChange=(handleLastNameChange) 1> </label> <label> Email: <input value=[person.email) onChange=[handleEmailChange) 1> </label> <p> (person.firstName]f' '] (person.lastName)(' ') ([person.email)) </p> </>
+  function handleFirstNameChange(e) { 
+    person.firstName = e.target.value;
+  }
+  function handleLastNameChange(e) { 
+    person.lastName = e.target.value; 
+  }
+  function handleEmailChange(e) { 
+    person.email = e.target.value;
+  }
+  return (
+     <> 
+    <label> 
+    First name: 
+    <input 
+      value={person.firstName} 
+      onChange={handleFirstNameChange} />
+    </label> 
+    <label> 
+        Last name: 
+      <input 
+        value={person.lastName} 
+        onChange={handleLastNameChange} /> 
+     </label> 
+     <label> Email: <input value=[person.email) onChange=[handleEmailChange) 1> </label> <p> (person.firstName]f' '] (person.lastName)(' ') ([person.email)) </p> </>
 )
