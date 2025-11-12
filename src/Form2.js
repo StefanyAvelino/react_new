@@ -25,9 +25,12 @@ export default function Form2 () {
     </label> 
     <label> 
         Last name: 
-      <input 
-        value={person.lastName} 
-        onChange={handleLastNameChange} /> 
+        <input 
+          value={person.lastName} 
+          onChange={handleLastNameChange} /> 
      </label> 
-     <label> Email: <input value=[person.email) onChange=[handleEmailChange) 1> </label> <p> (person.firstName]f' '] (person.lastName)(' ') ([person.email)) </p> </>
-)
+     <label> 
+          Email: 
+          <input value={person.email} onChange={handleEmailChange} /> </label> <p> {person.firstName}{' '} {person.lastName}{' '} ({person.email}) </p> </>
+);
+}
