@@ -59,7 +59,7 @@ const person = {
 export default function TedoList() {
 return (
     <div style ={person.theme}>
-        <h1>(person.name)'s Todos</h1>
+        <h1>{person.name}'s Todos</h1>
         <img
         classNames="avatar"
         src="https://i.imgur.com/7vQDefPs.jpg"
