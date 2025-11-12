@@ -31,6 +31,15 @@ export default function Form2 () {
      </label> 
      <label> 
           Email: 
-          <input value={person.email} onChange={handleEmailChange} /> </label> <p> {person.firstName}{' '} {person.lastName}{' '} ({person.email}) </p> </>
+          <input 
+            value={person.email} 
+            onChange={handleEmailChange} /> 
+              </label> 
+              <p> 
+                 {person.firstName}{' '} 
+                 {person.lastName}{' '} 
+                 ({person.email}) 
+              </p> 
+            </>
 );
 }
