@@ -23,6 +23,8 @@ export default function Atv04(){
             <Form2/>  
             <Form3/>
             <MovingDot/>
+            <Lista/>
+            <Lista2/>
             <Link to="/">Voltar</Link>
         
         </>
@@ -30,6 +32,7 @@ export default function Atv04(){
 
 
 }
+
 
 
 
