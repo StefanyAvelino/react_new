@@ -14,8 +14,14 @@ export default function Lista() {
       <button onClick={()=> { 
            artists.push({ 
              id: nextId++, 
-             name: name, }); }}>Add</button> <ul>
-(artists.map(artist => (
-<li
-key=(artist.id)>(artist.name)</li>
-</ul> <P> ); t
+             name: name, }); 
+        }}>Add</button> 
+        <ul>
+         {artists.map(artist => (
+          <li key={artist.id}>{artist.name}</li>
+           
+           ))}
+        </ul> 
+      </>
+    ); 
+}
