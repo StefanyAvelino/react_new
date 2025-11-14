@@ -38,7 +38,12 @@ function handleClick() {
              left: shape.x,
              top: shape.y,
              borderRadius:
-             shape.type === 'circle'
-width: 20, height: 20, ]] /> ))H <p>
- "
+               shape.type === 'circle'
+                  ? '50%' : ' ',
+             width: 20, 
+             height: 20, 
+           }}/> 
+         ))} 
+      </>
 );
+}
