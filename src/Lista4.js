@@ -22,3 +22,6 @@ export default function Lista4() {
         <li key={artwork.id}>{artwork.title}</li>
          ))}
       </ul>
+     </>
+  );
+}
