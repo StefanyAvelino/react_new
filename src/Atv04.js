@@ -8,6 +8,7 @@ import MovingDot from "./MovingDot";
 import Lista from "./Lista";
 import Lista2 from "./Lista2";
 import ShapeEditor from "./ShapeEditor";
+import CounterList from "./CounterList";
 import Lista3 from "./Lista3";
 import Lista4 from "./Lista4";
 import BucketList from "./BucketList";
@@ -28,6 +29,7 @@ export default function Atv04(){
             <Lista/>
             <Lista2/>
             <ShapeEditor/>
+            <CounterList/>
             <Lista3/>
             <Lista4/>
             <BucketList/>
@@ -38,4 +40,5 @@ export default function Atv04(){
 
 
 }
+
 
