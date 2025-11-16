@@ -8,8 +8,9 @@ import MovingDot from "./MovingDot";
 import Lista from "./Lista";
 import Lista2 from "./Lista2";
 import ShapeEditor from "./ShapeEditor";
-
-
+import Lista3 from "./Lista3";
+import Lista4 from "./Lista4";
+import BucketList from "./BucketList";
 
 import { Link } from "react-router-dom";
 
@@ -27,6 +28,9 @@ export default function Atv04(){
             <Lista/>
             <Lista2/>
             <ShapeEditor/>
+            <Lista3/>
+            <Lista4/>
+            <BucketList/>
             <Link to="/">Voltar</Link>
         
         </>
@@ -34,11 +38,4 @@ export default function Atv04(){
 
 
 }
-
-
-
-
-
-
-
 
