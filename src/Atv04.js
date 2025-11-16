@@ -7,6 +7,7 @@ import Form3 from "./Form3";
 import MovingDot from "./MovingDot";
 import Lista from "./Lista";
 import Lista2 from "./Lista2";
+import ShapeEditor from "./ShapeEditor";
 
 
 
@@ -25,6 +26,7 @@ export default function Atv04(){
             <MovingDot/>
             <Lista/>
             <Lista2/>
+            <ShapeEditor/>
             <Link to="/">Voltar</Link>
         
         </>
@@ -32,6 +34,7 @@ export default function Atv04(){
 
 
 }
+
 
 
 
