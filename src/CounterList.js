@@ -12,7 +12,7 @@ function handleIncrementClick(index) {
        return c + 1; 
      }else{
        // The rest haven't changed 
-       return C; 
+       return c; 
      }
     }); 
    setCounters (nextCounters);

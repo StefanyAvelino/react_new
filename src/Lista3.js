@@ -11,7 +11,7 @@ export default function Lista3() {
   const [artists, setArtists] = useState( 
     initialArtists 
   );
-  function handleclick() { 
+  function handleClick() { 
     const insertAt = 1; // Could be any index 
     const nextArtists = [ 
       // Items before the insertion point: 
@@ -19,7 +19,8 @@ export default function Lista3() {
       //New item: 
       { id: nextId++, name: name }, 
       // Items after the insertion point: 
-      ...artists.slice(insertAt)]; 
+      ...artists.slice(insertAt)
+    ]; 
     setArtists(nextArtists); 
     setName('');
   }

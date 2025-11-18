@@ -4,7 +4,7 @@ export default function Form2 () {
   const [person, setPerson] = useState({ 
     firstName: 'Barbara', 
     lastName: 'Hepworth',
-    email: 'bhepworth@sculpture.com
+    email: 'bhepworth@sculpture.com'
   });
   function handleFirstNameChange(e) { 
     person.firstName = e.target.value;

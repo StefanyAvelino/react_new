@@ -16,7 +16,7 @@ export default function Form3() {
   }
   function handleTitleChange(e) { 
     setPerson ({
-      ....person, 
+      ...person, 
       artwork: {
         ...person.artwork, 
         title: e.target.value }});

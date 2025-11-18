@@ -29,7 +29,7 @@ export const people = [{
   accomplishment: 'white dwarf star mass calculations', 
   imageId: 'lrWQx8l'}];
 
-export const sculpturelist = [ {
+export const sculptureList = [ {
   name: 'Homenaje la Neurocirugia',
   artist: 'Marta Colvin Andrade',
   description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most ecoanizshı. public art pieces.', 
@@ -40,7 +40,7 @@ export const sculpturelist = [ {
   artist: 'Eduardo Catalano',
   description: 'This enormous (75 ft. or 23m) siiver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the mornina.', 
   url: 'https://i.imgur.com/ZF6s192m.jpg',
-  alt: 'A gigantic metallid flower sculpture with reflective mirror-like petale and strong stamens.
+  alt: 'A gigantic metallid flower sculpture with reflective mirror-like petale and strong stamens.'
 },{
   name: 'Eternal Presence',
   artist: 'John Woodrow Wilson', 
@@ -82,7 +82,7 @@ export const sculpturelist = [ {
   artist:'Unknown Artist',
   description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
   url: 'https://i.ingur.com/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial xpression and armor.
+  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial xpression and armor.'
 },{
   name: 'Lunar Landscape', artist: 'Louise Nevelson',
   description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she usec disparate parts like bedpost, juggling pin, and seat fragment, nailing and gluing e them into boxes that reflect the influence O f Cubism s geometric abstraction of space and form.', 
